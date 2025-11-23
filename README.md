@@ -1,60 +1,88 @@
-Meu-AppRatinho: Interface JavaFX
+# 🐭 Olha o Rato! 
+## Interface JavaFX
 
-🐭 Descrição do Projeto
+![JavaFX](https://img.shields.io/badge/JavaFX-21-blue)
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Maven](https://img.shields.io/badge/Maven-Build%20Tool-red)
 
-Este projeto é uma aplicação simples desenvolvida com JavaFX para demonstrar o carregamento e manipulação de imagens (o "Ratinho") em uma interface gráfica. O objetivo principal é praticar a interface do usuário, a gestão de eventos de botões e a estilização via CSS inline.
+## 📖 Descrição do Projeto
+O **Olha o Rato!** é uma aplicação simples desenvolvida em **JavaFX** para demonstrar o carregamento e manipulação de imagens em uma interface gráfica.  
+O objetivo principal é praticar:
+- Criação de interface gráfica
+- Gestão de eventos de botões
+- Estilização via CSS inline
 
 A aplicação apresenta uma imagem central de um rato e oferece duas funcionalidades interativas:
+- **Botão "Próxima"**: Avança para a próxima imagem da sequência  
+- **Botão "Aleatório"**: Seleciona e exibe uma imagem de rato de forma randômica  
 
-Botão "Próxima": Avança para a próxima imagem da sequência.
+---
 
-Botão "Aleatório": Seleciona e exibe uma imagem de rato de forma randômica.
+## ✨ Funcionalidades
+- **Interface Gráfica Responsiva**: Layout centralizado utilizando `VBox`  
+- **Controle de Imagens**: Ciclo sequencial e seleção aleatória  
+- **Estilização**: CSS inline (Blocos de Texto - Java 21)  
+- **Gerenciamento de Dependências**: Projeto estruturado com **Maven**  
 
-✨ Funcionalidades Principais
+---
 
-Interface Gráfica Responsiva: Layout centralizado utilizando VBox.
+## ⚙️ Tecnologias Utilizadas
+- **Linguagem**: Java 21  
+- **Framework**: JavaFX 21  
+- **Build Tool**: Apache Maven  
 
-Controle de Imagens: Ciclo sequencial e seleção aleatória de imagens.
+---
 
-Estilização: Uso de CSS inline (Blocos de Texto - Java 15+) para um design atraente e com cores temáticas.
+## 🚀 Como Executar
 
-Gerenciamento de Dependências: Projeto estruturado utilizando Maven.
+### 1. Pré-requisitos
+- JDK 21 instalado  
+- Maven instalado  
 
-⚙️ Tecnologias Utilizadas
-
-Linguagem: Java 21
-
-Framework: JavaFX 21
-
-Build Tool: Apache Maven
-
-🚀 Como Executar o Projeto
-
-Para executar esta aplicação, você precisará ter o JDK 21 e o Maven instalados em sua máquina.
-
-1. Clonar o Repositório
-
-git clone [https://github.com/CarlosGall615/Meu-AppRatinho.git](https://github.com/CarlosGall615/Meu-AppRatinho.git)
+### 2. Clonar o Repositório
+```bash
+git clone https://github.com/CarlosGall615/Meu-AppRatinho.git
 cd Meu-AppRatinho/demo
+```
+## 📂 Estrutura de Pastas
+```plaintext
+Meu-AppRatinho/
+ ├── src/
+ │   ├── main/
+ │   │   ├── java/
+ │   │   │   └── myapp/
+ │   │   │       └── App.java
+ │   │   └── resources/
+ │   │       ├── images/
+ │   │       └── assets/
+ │   └── test/
+ ├── pom.xml
+ └── README.md
+```
+## 🤝 Contribuições
+Contribuições são bem-vindas! Para colaborar:
 
+1. Faça um **fork**  do repositório.
 
-2. Configuração (Opcional, mas Recomendado)
+2.  `Crie uma branch`
+```
+git checkout -b feature/nova-feature
+```
 
-Verifique se as propriedades do Java no arquivo pom.xml estão definidas para 21 (conforme corrigimos):
+3.  `Commit suas alterações`
+```
+git commit -m 'Adiciona nova feature'
+``` 
 
-<properties>
-    <maven.compiler.source>21</maven.compiler.source>
-    <maven.compiler.target>21</maven.compiler.target>
-    <javafx.version>21.0.1</javafx.version> 
-</properties>
+4.  `Faça push para a branch` 
+```
+git push origin feature/nova-feature
+```
 
+5.  `Abra um Pull Request`
 
-3. Execução via Maven
+## 📜 Licença
+Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e distribuir conforme necessário.
 
-O plugin javafx-maven-plugin simplifica a execução. Certifique-se de estar no diretório do projeto onde o pom.xml está localizado (.../Meu-AppRatinho/demo):
-
-# Limpa, compila e executa o projeto
-mvn clean javafx:run
-
-
-Se tudo estiver configurado corretamente, a janela da aplicação JavaFX "Olha o Rato!" será aberta.
+## 👨‍💻 Autor
+Desenvolvido por `Carlos Gall.`
